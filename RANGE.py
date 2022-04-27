@@ -1,0 +1,12 @@
+"""
+RANGE IN PYTHON
+RANGE IS USED TO CONTINUSLY PRINT OUTPUT WITH A SEQUENCE OF ORDER
+SYNTAX FOR RANGE range(start,stop,step)
+for stop it will use n-1
+BY DEFAULT IT TAKE 0 AS START AND 1 AS STEP
+IF YOU ASSIGN ONLY ONE VALUE IT TAKE IT AS STOP(n-1)
+We can use range in lists and for loop
+EX1: TO PRINT 1-10 USING RANGE IN LIST
+"""
+a=(list(range(1,11,1)))
+print("LIST FOR 1 TO 10 : ",a)
